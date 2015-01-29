@@ -22,7 +22,7 @@ public class Die
    */
   public void roll()
   {
-    upValue = ((int)Math.random() * 6) + 1;
+    upValue = (int) ((Math.random() * 6) + 1);
   }
   
   /**
